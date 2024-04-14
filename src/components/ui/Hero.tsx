@@ -6,11 +6,11 @@ import ButtonCV from "./ButtonCV"
 
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center md:flex-row mx-auto mb-8">
+    <section className="flex flex-col items-center md:flex-row mx-auto mb-8 md:gap-12">
         <div className=" md:text-start text-center text-pretty">
-          <div className="text-sm text-indigo-600 uppercase font-semibold tracking-[2px] md:mt-8 my-4">Final-year Software Engineering Student</div>
+          <div className="text-md text-indigo-600 uppercase font-semibold tracking-[2px] md:mt-8 my-4">Final-year Software Engineering Student</div>
           <h1 className="text-5xl font-bold">Hello. I'm Bauti.</h1>
-          <div className="subtitle pb-6 mt-3.5 max-w-xl">
+          <div className="subtitle pb-6 mt-3.5 max-w-xl text-lg">
             <p className="mt-2 ">
               Passionate Software Engineer student at "National University of Mar del Plata" with a solid foundation
               in computer science principles and in the whole software life cycle.
@@ -27,7 +27,7 @@ const Hero = () => {
             <ButtonCV href="/download" name="Download CV" styles="border-indigo-600 bg-indigo-600 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"/>  
           </div>
         </div>
-        <Image className="max-h-fit pt-10  " 
+        <Image className="max-h-fit pt-10" 
           priority
           src={heroImage}
           alt="Illustration of a software engineer coding with his laptop"

@@ -1,12 +1,9 @@
 'use client'
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { links } from "@/lib/data";
 
 export const Header = () => {
-
-  const path = usePathname();
 
   return (
     <header >
@@ -16,7 +13,7 @@ export const Header = () => {
             Bautista Sobenko
           </Link>
         </div>
-        <div className="flex gap-12 text-md text-zinc-800 mb-3 md:mb-0">
+        <div className="flex gap-12 text-lg text-zinc-800 mb-3 md:mb-0">
           {links.map( (link) => (
             <li className="list-none  rounded-lg p-1.5 " key={link.href}>
               <Link className="hover:text-indigo-600" href={link.href}>
