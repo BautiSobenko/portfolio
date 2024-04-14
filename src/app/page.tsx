@@ -1,8 +1,9 @@
+import { Hero } from "@/components/ui"
 
 const Page = () => {
   return (
     <main>
-      <h1>Starting...</h1>
+      <Hero />
     </main>
   )
 }
