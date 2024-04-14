@@ -28,7 +28,7 @@ const Announcement = () => {
   }
 
   return (
-    <div className={`rounded-b-xl w-full flex flex-row justify-between items-center gap-4 bg-indigo-600 px-4 py-3 text-white`} >
+    <div className={`rounded-b-xl w-full flex flex-row justify-between items-center gap-4 bg-indigo-600 px-4 py-3 text-white text-center`} >
       <button
         onClick={previous}
         className="font-bold hover:text-gray-500 sm:block sm:rounded sm:text-zinc-900"
@@ -36,7 +36,7 @@ const Announcement = () => {
       >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 rtl:rotate-180"
+        className="md:h-5 md:w-5 h-7 w-8 rtl:rotate-180"
         viewBox="0 0 20 20"
         fill="currentColor"
       >
@@ -57,7 +57,7 @@ const Announcement = () => {
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 rtl:rotate-180"
+        className="md:h-5 md:w-5 h-7 w-8 rtl:rotate-180"
         viewBox="0 0 20 20"
         fill="currentColor"
       >

@@ -22,7 +22,7 @@ export default function RootLayout({
         <Announcement />
         <Header />
         <Divider />
-        <div className="px-10">
+        <div className="md:px-10">
           {children}
         </div>
       </body>

@@ -6,36 +6,34 @@ import ButtonCV from "./ButtonCV"
 
 const Hero = () => {
   return (
-    <section>
-      <div className="gap-20 flex flex-col text-center items-center lg:flex-row lg:text-start mx-auto text-pretty">
-        <div>
-          <div className="text-sm text-indigo-600 uppercase font-semibold tracking-[2px] mb-4">Final-year Software Engineering Student</div>
-          <h1 className="text-5xl font-bold">Hi, I'm Bauti.</h1>
+    <section className="flex flex-col items-center md:flex-row mx-auto mb-8">
+        <div className=" md:text-start text-center text-pretty">
+          <div className="text-sm text-indigo-600 uppercase font-semibold tracking-[2px] md:mt-8 my-4">Final-year Software Engineering Student</div>
+          <h1 className="text-5xl font-bold">Hello. I'm Bauti.</h1>
           <div className="subtitle pb-6 mt-3.5 max-w-xl">
-            <p className="mt-2">
-              Full-Stack Web Developer going deeply and working with <span className="italic">MERN Stack</span>. 
+            <p className="mt-2 ">
+              Passionate Software Engineer student at "National University of Mar del Plata" with a solid foundation
+              in computer science principles and in the whole software life cycle.
             </p>
             <p className="mt-2">
-              Also i had worked in projects related to App Developement and Artificial Intelligence  
-              using <span className="italic">Java</span>, <span className="italic">C</span> and <span className="italic">Python</span>.
+              I've had the opportunity to work on a diverse range of projects since my career has started, from Web and App developement to Artificial Intelligence and Machine learning models.
             </p>
             <p className="mt-2">
               I'm always looking for challenging opportunities and new things to learn and grow.
             </p>
           </div>
-          <div className="flex flex-col gap-7 lg:flex-row">
+          <div className="flex flex-col md:gap-7 gap-3 lg:flex-row md:mr-32">
             <ButtonCV href="/contact" name="Contact me" styles="border-indigo-600 bg-indigo-600 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"/>  
             <ButtonCV href="/download" name="Download CV" styles="border-indigo-600 bg-indigo-600 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"/>  
           </div>
         </div>
-        <Image className="max-h-fit pt-10" 
+        <Image className="max-h-fit pt-10  " 
           priority
           src={heroImage}
           alt="Illustration of a software engineer coding with his laptop"
           width={500}
           height={500}
         />
-      </div>
     </section>
   )
 }

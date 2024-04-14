@@ -1,9 +1,10 @@
-import { Hero } from "@/components/ui"
+import { Hero, Divider } from "@/components/ui"
 
 const Page = () => {
   return (
     <main>
       <Hero />
+      <Divider />
     </main>
   )
 }

@@ -3,13 +3,13 @@ import React from 'react'
 const ButtonCV = ({ styles, name, href }: { styles:string, name:string, href:string }) => {
   return (
     <a
-  className={`inline-flex md:mx-20 text-sm lg:mx-0 items-center justify-center gap-2 rounded border px-8 py-3 ${styles}`}
+  className={`flex-grow flex text-sm items-center justify-center gap-2 rounded border py-3 ${styles}`}
   href={href}
 >
   <span className="text-sm font-medium"> {name} </span>
 
   <svg
-    className="h-5 w-5 rtl:rotate-180"
+    className="h-4 w-4 rtl:rotate-180"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
