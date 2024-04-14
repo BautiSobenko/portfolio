@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header, Announcement } from "@/components/ui";
+import { Divider } from "@/components/ui/Divider";
 
 export const metadata: Metadata = {
   title: "Bautista Sobenko | Portfolio",
@@ -20,7 +21,10 @@ export default function RootLayout({
         <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-35rem] lg:left-[-28rem] xl:left[-15rem] 2xl:left[-5rem]"></div>
         <Announcement />
         <Header />
-        {children}
+        <Divider />
+        <div className="px-10">
+          {children}
+        </div>
       </body>
     </html>
   );
