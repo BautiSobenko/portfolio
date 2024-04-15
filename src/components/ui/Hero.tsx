@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import Image from "next/image"
-import heroImage from "../../../public/hero.svg"
+
 import ButtonCV from "./ButtonCV"
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
         <Image className="max-h-fit pt-10" 
           priority
-          src={heroImage}
+          src="/hero.svg"
           alt="Illustration of a software engineer coding with his laptop"
           width={500}
           height={500}

@@ -11,5 +11,5 @@ export {
   Hero,
   Divider,
   CourseCard,
-  Card
+  Card,
 }
