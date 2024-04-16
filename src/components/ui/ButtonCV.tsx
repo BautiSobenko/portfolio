@@ -6,7 +6,7 @@ const ButtonCV = ({ styles, name, href }: { styles:string, name:string, href:str
   className={`flex-grow flex items-center justify-center gap-2 rounded border py-3 ${styles}`}
   href={href}
 >
-  <span className="text-lg font-[350]"> {name} </span>
+  <span className="text-md md:text-lg font-[350]"> {name} </span>
 
   <svg
     className="h-4 w-4 rtl:rotate-180"

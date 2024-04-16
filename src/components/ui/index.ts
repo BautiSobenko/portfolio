@@ -3,7 +3,8 @@ import Announcement from "@/components/ui/Announcement"
 import Hero from "@/components/ui/Hero"
 import { Divider } from "./Divider"
 import { CourseCard } from "./CourseCard"
-import { Card } from "./Card"
+import { ProjectCardMobile } from "./ProjectCardMobile"
+import { ProjectSectionMobile } from "./ProjectSectionMobile"
 
 export {
   Header,
@@ -11,5 +12,6 @@ export {
   Hero,
   Divider,
   CourseCard,
-  Card,
+  ProjectCardMobile,
+  ProjectSectionMobile
 }

@@ -9,8 +9,8 @@ const Hero = () => {
     <section className="flex flex-col items-center md:flex-row mx-auto mb-8 md:gap-12">
         <div className=" md:text-start text-center text-pretty">
           <div className="text-md text-indigo-600 uppercase font-semibold tracking-[2px] md:mt-8 my-4">Final-year Software Engineering Student</div>
-          <h1 className="text-5xl font-bold">Hello. I'm Bauti.</h1>
-          <div className="subtitle pb-6 mt-3.5 max-w-xl text-lg">
+          <h1 className="text-5xl md:text-5xl font-bold">Hello. I'm Bauti.</h1>
+          <div className="subtitle pb-6 mt-3.5 max-w-xl text-md md:text-lg">
             <p className="mt-2 ">
               Passionate Software Engineer student at "National University of Mar del Plata" with a solid foundation
               in computer science principles and in the whole software life cycle.

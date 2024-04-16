@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Card } from "./Card"
 
 import { projectsData } from "@/lib/projectsData"
 
