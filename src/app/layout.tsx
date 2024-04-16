@@ -16,13 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`antialiased bg-gray-50 text-gray-950 relative`}>
-        <div className="bg-[#f9b4b5] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-35rem] lg:left-[-28rem] xl:left[-15rem] 2xl:left[-5rem]"></div>
+      <body className={`antialiased bg-bg-100 text-text-100 relative`}>
         <Announcement />
         <Header />
         <Divider />
-        <div className="md:px-10">
+        <div className="md:px-10 px-2">
           {children}
         </div>
       </body>

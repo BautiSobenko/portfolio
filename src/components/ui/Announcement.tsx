@@ -28,10 +28,10 @@ const Announcement = () => {
   }
 
   return (
-    <div className={`rounded-b-xl w-full flex flex-row justify-between items-center gap-4 bg-indigo-600 px-4 py-3 text-white text-center`} >
+    <div className={`rounded-b-xl w-full flex flex-row justify-between items-center gap-4 font-medium bg-accent-100 px-4 py-3 text-text-100 text-center`} >
       <button
         onClick={previous}
-        className="font-bold hover:text-gray-500 sm:block sm:rounded sm:text-zinc-900"
+        className="font-bold hover:text-accent-200 sm:block sm:rounded"
         aria-label="Previous slide"
       >
       <svg
@@ -47,12 +47,12 @@ const Announcement = () => {
         />
       </svg>
     </button>
-      <p className="text-sm font-medium select-none">
+      <p className="text-sm select-none">
         {phrases[index]}
       </p>
     <button
       onClick={forward}
-      className="font-bold hover:text-gray-500 sm:block sm:rounded sm:text-zinc-900"
+      className="font-bold hover:text-accent-200 sm:block sm:rounded"
       aria-label="Next slide"
     >
       <svg
