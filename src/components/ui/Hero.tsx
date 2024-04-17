@@ -10,29 +10,23 @@ const Hero = () => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-width: 1024px)'
   })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' })
 
   return (
-    <section className="flex md:flex-row flex-col mx-auto mb-8 text-pretty gap-6">
-      <div className="flex-col items-center md:text-start text-center">
-        <div className="text-sm md:text-md text-accent-100 uppercase font-semibold tracking-[2px] md:mt-8 my-4">Final-year Software Engineering Student</div>
-        <h1 className="text-5xl md:text-5xl font-bold">Hello. I'm Bauti.</h1>
-        <div className="pb-6 mt-3.5 max-w-xl text-md md:text-lg text-text-200 leading-relaxed">
-          <p className="mt-2">
+    <section className="flex lg:flex-row flex-col mx-auto mb-8 text-pretty gap-6 xl:gap-16">
+      <div className="flex-col items-center lg:text-start text-center">
+        <div className="text-sm md:text-md text-accent-100 uppercase font-semibold tracking-[2px] lg:mt-8 my-4">Final-year Software Engineering Student</div>
+        <h1 className="flex flex-col text-5xl md:text-6xl font-bold">Hello. {<span className="">I'm Bauti.</span>}</h1>
+        <div className="pb-6 mt-3.5 max-w-xl text-lg lg:text-lg text-text-200 leading-relaxed">
+          <p className="py-2 lg:text-start text-center">
             Passionate Software Engineer student at "National University of Mar del Plata" with a solid foundation
             in computer science principles and in the whole software life cycle.
-          </p>
-          <p className="mt-2">
-            I've had the opportunity to work on a diverse range of projects since my career has started, from Web and App developement to Artificial Intelligence and Machine learning models.
-          </p>
-          <p className="mt-2">
-            I'm always looking for challenging opportunities and new things to learn and grow.
           </p>
         </div>
         {
           isTabletOrMobile && (
-            <Image className="max-h-fit pb-4" 
-            priority
+            <Image 
+            className="pb-4" 
             src="/hero.svg"
             alt="Illustration of a software engineer coding with his laptop"
             width={500}
@@ -40,19 +34,19 @@ const Hero = () => {
             />
           )
         }
-        <div className="flex flex-col md:gap-7 gap-3 lg:flex-row md:mr-32">
+        <div className="flex flex-col md:mt-8 lg:mt-0 md:gap-7 gap-3 md:flex-row  ">
           <ButtonCV href="/contact" name="Contact me" styles="border-accent-100 bg-accent-100 text-white hover:bg-bg-100 hover:text-accent-100 focus:outline-none focus:ring active:text-accent-100"/>  
           <ButtonCV href="/download" name="Download CV" styles="border-accent-100 bg-accent-100 text-white hover:bg-bg-100 hover:text-accent-100 focus:outline-none focus:ring active:text-accent-100"/>  
         </div>
       </div>
       {
         isDesktopOrLaptop && (
-          <Image className="max-h-fit pt-10" 
+          <Image className="max-h-fit pt-10 lg:size-[420px] xl:w-[525px]" 
           priority
           src="/hero.svg"
           alt="Illustration of a software engineer coding with his laptop"
-          width={500}
-          height={500}
+          width={525}
+          height={525}
           />
         )
       }
