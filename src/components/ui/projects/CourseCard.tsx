@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import { projectsData } from "@/lib/projectsData"
-import { ProjectCardDesktop } from "."
+import { ProjectCardDesktop } from ".."
 
 export const CourseCard = () => {
   return (
@@ -32,8 +32,6 @@ export const CourseCard = () => {
           topic={projectsData[1].topic}
         />
 
-        {/* Card 3 info= row-start-5 row-span-4 col-start-1 col-span-2 */}
-
         <ProjectCardDesktop
           styles="row-start-5 row-span-4 col-start-1 col-span-2"
           title={projectsData[3].name}
@@ -42,8 +40,6 @@ export const CourseCard = () => {
           src={projectsData[3].href}
           topic={projectsData[3].topic}
         />
-
-        {/* Card 4 info= row-start-5 row-span-4 col-start-3 col-span-full */}
         
         <ProjectCardDesktop
           styles="row-start-5 row-span-4 col-start-3 col-span-full"
@@ -53,16 +49,6 @@ export const CourseCard = () => {
           src={projectsData[2].href}
           topic={projectsData[2].topic}
         />
-
-        {/* Card 5 info= row-start-9 row-span-4 col-start-1 col-span-3 */}
-
-        {/* <ProjectCardDesktop
-          styles="row-start-9 row-span-4 col-start-1 col-span-3"
-          title={projectsData[4].name}
-          alt={projectsData[4].alt}
-          description={projectsData[4].description}
-          src={projectsData[4].href}
-        /> */}
     </div>
   </section>
 )}
