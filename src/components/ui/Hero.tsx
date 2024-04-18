@@ -26,6 +26,7 @@ const Hero = () => {
         {
           isTabletOrMobile && (
             <Image 
+            priority
             className="pb-4" 
             src="/hero.svg"
             alt="Illustration of a software engineer coding with his laptop"

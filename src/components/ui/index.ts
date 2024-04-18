@@ -5,6 +5,8 @@ import { Divider } from "./Divider"
 import { CourseCard } from "./CourseCard"
 import { ProjectCardMobile } from "./ProjectCardMobile"
 import { ProjectSectionMobile } from "./ProjectSectionMobile"
+import { ProjectCardDesktop } from "./ProjectCardDesktop"
+
 
 export {
   Header,
@@ -13,5 +15,6 @@ export {
   Divider,
   CourseCard,
   ProjectCardMobile,
-  ProjectSectionMobile
+  ProjectSectionMobile,
+  ProjectCardDesktop
 }
