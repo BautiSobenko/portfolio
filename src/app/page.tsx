@@ -18,6 +18,7 @@ const Page = () => {
           ? <CourseCard />
           : isTabletOrMobile && <ProjectSectionMobile />
       }
+      <Divider />
     </main>
   )
 }
