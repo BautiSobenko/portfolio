@@ -12,7 +12,7 @@ export const ProjectSectionMobile = () => {
           Projects through my career
         </p>
       </div>
-      <div className="flex flex-col gap-6 px-6 flex-grow">
+      <div className="flex flex-col gap-6">
           {projectsData.map((project) => (
             <ProjectCardMobile
               key={project.name}
