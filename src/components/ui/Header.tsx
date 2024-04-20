@@ -12,7 +12,7 @@ export const Header = () => {
             Bautista Sobenko
           </Link>
         </div>
-        <div className="flex gap-12 text-md md:text-lg text-text-100 mb-3 md:mb-0">
+        <div className="flex gap-12 text-sm lg:text-base xl:text-lg text-text-100 mb-3 md:mb-0">
           {links.map( (link) => (
             <li className="list-none  rounded-lg p-1.5 " key={link.href}>
               <Link className="hover:text-primary-200" href={link.href}>

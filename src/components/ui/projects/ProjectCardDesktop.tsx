@@ -16,9 +16,9 @@ export const ProjectCardDesktop = ({ styles, title, alt, description, src, topic
         className=" h-[75%] xl:h-[90%] w-full pb-1"
       />
 
-      <div className="border-t border-bg-300 group-hover:border-accent-100/40 mt-1 h-full w-full px-3 pb-6 pt-2 text-pretty flex flex-col justify-evenly gap-2">
-        <h1 className="text-2xl font-bold text-balance">{title}</h1>
-        <p className="text-sm text-center text-balance px-6 text-text-200 leading-6">{description}</p>
+      <div className="border-t border-bg-300 group-hover:border-accent-100/40 mt-1 h-full w-full px-3 pb-6 pt-2 text-pretty text-center flex flex-col justify-evenly gap-2">
+        <h1 className="text-2xl xl:text-3xl font-bold text-balance">{title}</h1>
+        <p className="text-sm xl:text-base text-balance px-6 text-text-200 leading-6">{description}</p>
       </div>
     </a>     
   )

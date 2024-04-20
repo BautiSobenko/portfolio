@@ -15,10 +15,10 @@ const Hero = () => {
   return (
     <section className="flex lg:flex-row flex-col mx-auto mb-8 text-pretty gap-6 xl:gap-16">
       <div className="flex-col items-center lg:text-start text-center">
-        <div className="text-sm md:text-md text-accent-100 uppercase font-semibold tracking-[2px] lg:mt-8 my-4">Final-year Software Engineering Student</div>
+        <div className="text-sm text-accent-100 uppercase font-semibold tracking-[2px] lg:mt-8 my-4">Final-year Software Engineering Student</div>
         <h1 className="flex flex-col text-5xl md:text-6xl font-bold">Hello. {<span className="">I'm Bauti.</span>}</h1>
         <div className="pb-6 mt-3.5 max-w-xl text-lg lg:text-lg text-text-200 leading-relaxed">
-          <p className="py-2 lg:text-start text-center">
+          <p className="py-2 text-sm md:text-base lg:text-start text-balance text-center">
             Passionate Software Engineer student at "National University of Mar del Plata" with a solid foundation
             in computer science principles and in the whole software life cycle.
           </p>
@@ -27,7 +27,7 @@ const Hero = () => {
           isTabletOrMobile && (
             <Image 
             priority
-            className="pb-4" 
+            className="pb-4 w-full px-2 md:px-10" 
             src="/hero.svg"
             alt="Illustration of a software engineer coding with his laptop"
             width={500}
