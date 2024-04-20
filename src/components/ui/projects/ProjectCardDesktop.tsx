@@ -4,7 +4,7 @@ export const ProjectCardDesktop = ({ styles, title, alt, description, src, topic
   return (
     <a className={`overflow-hidden border border-bg-300 bg-bg-200/40 hover:border-accent-100/40 group rounded-xl grid grid-rows-[15%_50%_35%] ${ styles }`}>
       <div className="inline-flex justify-start items-center w-40">
-        <h4 className="absolute inline-block bg-accent-100 rounded-full py-[8px] px-[12px] ml-5 mt-4 text-sm text-pretty ">{topic}</h4>
+        <h4 className="absolute inline-block bg-accent-100 rounded-full py-[8px] px-[12px] ml-5 text-sm text-pretty ">{topic}</h4>
       </div>
 
       <Image 
@@ -13,7 +13,7 @@ export const ProjectCardDesktop = ({ styles, title, alt, description, src, topic
         alt={alt}
         width={400}
         height={400}
-        className="h-[85%] w-full pb-1 mt-6"
+        className=" h-[75%] xl:h-[90%] w-full pb-1"
       />
 
       <div className="border-t border-bg-300 group-hover:border-accent-100/40 mt-1 h-full w-full px-3 pb-6 pt-2 text-pretty flex flex-col justify-evenly gap-2">

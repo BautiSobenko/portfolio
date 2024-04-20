@@ -1,21 +1,27 @@
 import Image from "next/image"
 
 
-export const ProjectCardMobile = ({ title, alt, description, src }: { title: string, alt: string, description: string, src: string }) => {
+export const ProjectCardMobile = ({ title, alt, description, src, topic }: { title: string, alt: string, description: string, src: string, topic: string }) => {
   
   return (
-    <a className="rounded-2xl border border-zinc-700 grid grid-rows-[60%_40%] max-h-[20rem] hover:shadow-sm overflow-hidden items-center"
+    <a className="border border-accent-100/40 bg-bg-200/40 rounded-xl grid grid-rows-[15%_50%_35%] overflow-hidden items-center"
     href="#">
+      <div className="inline-flex justify-start items-center w-40">
+        <h4 className="absolute inline-block bg-accent-100 rounded-full py-[8px] px-[12px] ml-5 text-xs text-pretty">{topic}</h4>
+      </div>
+
       <Image 
+        priority
         src={src} 
         alt={alt} 
         width={150}
         height={150}
-        className="row-start-1 row-end-2 h-full w-full rounded-2xl p-2"
+        className="h-[85%] w-full pb-1 mt-6"
       />
-      <div className="border-t-2 h-full w-full px-3 text-pretty flex flex-col justify-center gap-2">
-        <h1 className="text-md text-wrap text-center">{title}</h1>
-        <p className="text-xs text-wrap text-center text-zinc-500">{description}</p>
+
+      <div className="border-t border-accent-100/40 h-full md:h-[60%] md:pt-6 w-full px-3 text-pretty flex flex-col justify-center gap-2">
+        <h1 className="text-md md:text-xl font-bold text-balance text-center">{title}</h1>
+        <p className="text-xs md:text-md text-balance text-center px-6 text-text-200 md:leading-6">{description}</p>
       </div>
     </a>
   )
