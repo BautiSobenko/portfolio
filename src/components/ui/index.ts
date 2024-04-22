@@ -6,6 +6,7 @@ import { CourseCard } from "./projects/CourseCard"
 import { ProjectCardMobile } from "./projects/ProjectCardMobile"
 import { ProjectSectionMobile } from "./projects/ProjectSectionMobile"
 import { ProjectCardDesktop } from "./projects/ProjectCardDesktop"
+import { About } from "./about/About"
 
 
 export {
@@ -16,5 +17,6 @@ export {
   CourseCard,
   ProjectCardMobile,
   ProjectSectionMobile,
-  ProjectCardDesktop
+  ProjectCardDesktop,
+  About
 }
