@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export const ProjectCardDesktop = ({ styles, title, alt, description, src, topic } : { styles: string, title: string, alt: string, description: string, src: string, topic: string }) => {
   return (
-    <a className={`overflow-hidden border border-bg-300 bg-bg-200/40 hover:border-accent-100/40 group rounded-xl grid grid-rows-[15%_50%_35%] ${ styles }`}>
+    <a className={`overflow-hidden border border-bg-300 bg-bg-black hover:border-accent-100/40 group rounded-xl grid grid-rows-[15%_50%_35%] ${ styles }`}>
       <div className="inline-flex justify-start items-center w-40">
-        <h4 className="absolute inline-block bg-accent-100 rounded-full py-[8px] px-[12px] ml-5 text-sm text-pretty ">{topic}</h4>
+        <h4 className="text-text-100 absolute inline-block bg-accent-100 rounded-full py-[8px] px-[12px] ml-5 text-sm text-pretty ">{topic}</h4>
       </div>
 
       <Image 
