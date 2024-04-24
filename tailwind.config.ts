@@ -21,6 +21,7 @@ const config: Config = {
       "bg-100" : '#1E1E1E',
       "bg-200" : '#2d2d2d',
       "bg-300" : '#454545',
+      "grey" : '#222222',
       "beige-100": '#FCFBF8',
       "beige-150": '#F9F9F7',
       "beige-200": '#F4F3EF',
