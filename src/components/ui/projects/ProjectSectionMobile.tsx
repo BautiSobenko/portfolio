@@ -2,6 +2,7 @@ import Image from "next/image"
 
 import { projectsData } from "@/lib/projectsData"
 import { ProjectCardMobile } from "./ProjectCardMobile"
+import { ProjectCardDesktop } from "./ProjectCardDesktop"
 
 export const ProjectSectionMobile = () => {
   return (
@@ -14,13 +15,14 @@ export const ProjectSectionMobile = () => {
       </div>
       <div className="flex flex-col gap-6">
           {projectsData.map((project) => (
-            <ProjectCardMobile
+            <ProjectCardDesktop
               key={project.name}
               title={project.name} 
               alt={project.alt} 
               description={project.description} 
               src={project.href}
               topic={project.topic}
+              styles={""}
             />
           ))}
     </div>

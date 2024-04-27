@@ -21,7 +21,7 @@ export default function RootLayout({
         <Announcement />
         <Header />
         <Divider />
-        <div className="md:px-10 px-2">
+        <div className="xl:px-10 px-2">
           {children}
         </div>
       </body>
