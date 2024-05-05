@@ -6,10 +6,10 @@ import { links } from "@/lib/data";
 export const Header = () => {
   return (
     <header >
-      <nav className="flex flex-col md:gap-2 md:flex-row justify-between items-center md:py-2 px-2">
+      <nav className="flex flex-col md:gap-2 md:flex-row justify-between items-center md:py-3 px-2">
         <div className="flex py-3 items-center gap-1 ">
           <Link href="/" className="text-2xl tracking-wider">
-            Bautista Sobenko
+            Bautista Priano Sobenko
           </Link>
         </div>
         <div className="flex gap-12 text-sm lg:text-base mb-3 md:mb-0">

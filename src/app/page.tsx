@@ -8,7 +8,6 @@ const Page = () => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-width: 1024px)'
   })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
   return (
     <main>
       <Hero />
@@ -16,7 +15,7 @@ const Page = () => {
       {
         isDesktopOrLaptop
           ? <CourseCard />
-          : isTabletOrMobile && <ProjectSectionMobile />
+          : <ProjectSectionMobile />
       }
       <Divider />
       <About />

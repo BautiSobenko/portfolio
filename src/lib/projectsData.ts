@@ -18,7 +18,7 @@ export const projectsData = [
     alt: '',
     description: 'Final team project for the subject "Databases" where a solution to a real-world problem is implemented using PostgreSQL as the engine.',
     href: '/database.svg',
-    topic: 'Databases Management + Analysis and Design',
+    topic: 'Database Design and Management',
   },
   {
     name: 'Instant messaging system',

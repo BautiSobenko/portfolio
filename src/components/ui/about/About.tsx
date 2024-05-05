@@ -1,17 +1,18 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
 
 export const About = () => {
   return (
-    <section className="mb-10 py-6 ">
+    <section className="mb-10">
       
-      <div className="text-center py-6">
+      <div className="text-center py-6 lg:py-10">
         <h2 className="text-5xl font-bold mb-3">About</h2>
-        <p className="mb-6">
+        <p className="">
           Just a little more about me
         </p>
       </div>
 
-      <div className="flex flex-col h-[38rem] xl:h-[36rem] lg:mx-24 xl:mx-48 rounded-[3rem] bg-grey border border-bg-300 hover:border-primary-100/40 ">
+      <div className="flex flex-col h-[38rem] xl:h-[36rem] lg:mx-24 xl:mx-48 rounded-[3rem] bg-bg-100 border border-bg-200">
         <Image
           priority
           className="size-36 object-cover self-center rounded-full mt-8 mb-2 border-4 border-bg-100" 
@@ -23,7 +24,7 @@ export const About = () => {
 
         <h2 className="mx-4 mb-1 font-semibold text-xl md:text-2xl tracking-wider text-center">Bautista Priano Sobenko</h2>
 
-        <hr className="mx-16 border-accent-100"/>
+        <hr className="mx-24 border-accent-100"/>
  
         <div className="text-sm xl:text-base h-full p-4 xl:py-0 text-center leading-7 text-balance text-text-200">
           <div className="flex md:px-20 lg:px-28 xl:px-44 flex-col justify-center space-y-6 h-full rounded-md">
