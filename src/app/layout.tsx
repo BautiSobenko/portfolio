@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${aeonik} ${sohne}`}>
+      <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       <body className={`antialiased bg-bg-black text-text-100`}>
         <Announcement />
         <Header />

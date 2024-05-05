@@ -1,6 +1,6 @@
 'use client'
 
-import { Hero, Divider, CourseCard, ProjectSectionMobile, About, TechnologiesSection } from "@/components/ui"
+import { Hero, Divider, CourseCard, ProjectSectionMobile, About, FeatureSection } from "@/components/ui"
 import { useMediaQuery } from "react-responsive"
 
 const Page = () => {
@@ -21,7 +21,7 @@ const Page = () => {
       <Divider />
       <About />
       <Divider />
-      <TechnologiesSection />
+      <FeatureSection />
     </main>
   )
 }

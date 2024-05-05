@@ -7,8 +7,8 @@ import { ProjectCardMobile } from "./projects/ProjectCardMobile"
 import { ProjectSectionMobile } from "./projects/ProjectSectionMobile"
 import { ProjectCardDesktop } from "./projects/ProjectCardDesktop"
 import { About } from "./about/About"
-import { CardIcon } from "./technologies/CardIcon"
-import { TechnologiesSection } from "./technologies/TechnologiesSection"
+import { CardIcon } from "./feature_section/FeatureCard"
+import { FeatureSection } from "./feature_section/FeatureSection"
 
 
 export {
@@ -22,5 +22,5 @@ export {
   ProjectCardDesktop,
   About,
   CardIcon,
-  TechnologiesSection
+  FeatureSection
 }
