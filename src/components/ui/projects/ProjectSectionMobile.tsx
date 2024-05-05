@@ -6,10 +6,10 @@ import { ProjectCardDesktop } from "./ProjectCardDesktop"
 
 export const ProjectSectionMobile = () => {
   return (
-    <section className="">
+    <section className="mb-10">
       <div className="text-center py-6">
         <h2 className="text-5xl font-bold mb-3">Projects</h2>
-        <p className="text-muted-foreground text-lg leading-7">
+        <p className="text-sm md:text-base">
           Projects through my career
         </p>
       </div>

@@ -5,14 +5,14 @@ import { ProjectCardDesktop } from ".."
 
 export const CourseCard = () => {
   return (
-    <section className="py-6">
-      <div className="text-center py-6">
+    <section className="mb-10">
+      <div className="text-center py-10">
         <h2 className="text-5xl font-bold mb-3">Projects</h2>
-        <p className="mb-6">
+        <p className="">
           Projects through my career
         </p>
       </div>
-      <div className="grid *:h-[42rem] xl:*:h-[35rem] grid-cols-5 grid-rows-8 gap-6 justify-center ">
+      <div className="grid *:h-[42rem] xl:*:h-[38rem] grid-cols-5 grid-rows-8 gap-6 justify-center ">
       
         <ProjectCardDesktop
           styles="row-start-1 row-span-4 col-start-1 col-span-3 "
