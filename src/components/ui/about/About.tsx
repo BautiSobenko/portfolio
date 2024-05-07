@@ -12,7 +12,7 @@ export const About = () => {
           </p>
       </div>
 
-      <div className="flex flex-col h-[38rem] xl:h-[36rem] lg:mx-24 xl:mx-48 rounded-2xl bg-bg-100 border border-bg-200 py-8">
+      <div className="flex flex-col h-[38rem] xl:h-[36rem] lg:mx-24 xl:mx-48 rounded-2xl bg-bg-100 py-8">
         <Image
           priority
           src="/profile-pic.jpeg"

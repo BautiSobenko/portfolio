@@ -9,6 +9,7 @@ import { ProjectCardDesktop } from "./projects/ProjectCardDesktop"
 import { About } from "./about/About"
 import { CardIcon } from "./feature/FeatureCard"
 import { FeatureSection } from "./feature/FeatureSection"
+import { ContactSection } from "./contact/ContactSection"
 
 
 export {
@@ -22,5 +23,6 @@ export {
   ProjectCardDesktop,
   About,
   CardIcon,
-  FeatureSection
+  FeatureSection,
+  ContactSection
 }
