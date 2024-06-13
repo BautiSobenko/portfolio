@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { links } from "@/lib/data";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header >
       <nav className="flex flex-col md:gap-2 md:flex-row justify-between items-center md:py-3 px-2">
@@ -25,3 +25,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

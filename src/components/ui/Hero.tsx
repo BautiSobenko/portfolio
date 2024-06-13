@@ -4,7 +4,8 @@
 import Image from "next/image"
 import { useMediaQuery } from "react-responsive" 
 
-import ButtonCV from "./ButtonCV"
+import GoToButton from "./GoToButton"
+import DownloadButton from "./DownloadButton"
 
 const Hero = () => {
 
@@ -35,8 +36,8 @@ const Hero = () => {
           )
         }
         <div className="flex flex-col md:mt-8 lg:mt-0 md:gap-7 gap-3 md:flex-row  ">
-          <ButtonCV href="/contact" name="Contact me" styles="border-accent-100 bg-accent-100 text-white hover:bg-bg-100 hover:text-accent-100 focus:outline-none focus:ring active:text-accent-100"/>  
-          <ButtonCV href="/download" name="Download CV" styles="border-accent-100 bg-accent-100 text-white hover:bg-bg-100 hover:text-accent-100 focus:outline-none focus:ring active:text-accent-100"/>  
+          <GoToButton name="Contact me" sectionId="contact-section"/>  
+          <DownloadButton name="Open resume" document="bautista-sobenko-resume.pdf"/>  
         </div>
       </div>
       {

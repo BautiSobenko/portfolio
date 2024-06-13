@@ -6,7 +6,7 @@ export const ContactSection = () => {
   const { handleSubmit } = useFormSubmit();
 
   return (
-    <section className="mb-24 lg:px-24 xl:px-52 mx-10">
+    <section id="contact-section" className="mb-24 lg:px-24 xl:px-52 mx-10">
       <div className="text-center py-10">
         <h2 className="text-5xl font-bold mb-3">Contact me</h2>
         <p className="text-sm md:text-base">

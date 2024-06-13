@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Header, Announcement } from "@/components/ui";
-import { Divider } from "@/components/ui/Divider";
 
+import { Header, Announcement, Divider } from "@/components/ui";
 import { aeonik, sohne } from './utils/fonts'
 
 export const metadata: Metadata = {
