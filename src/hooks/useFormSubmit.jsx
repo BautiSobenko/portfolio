@@ -1,5 +1,5 @@
 
-export function useFormSubmit(event) {
+export function useFormSubmit() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();

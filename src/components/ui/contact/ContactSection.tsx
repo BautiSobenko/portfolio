@@ -14,7 +14,7 @@ export const ContactSection = () => {
         </p>
       </div>
 
-      <form onSubmit={handleSubmit} className="my-4 space-y-4 text-xs md:text-sm lg:text-base">
+      <form method="POST" onSubmit={handleSubmit} className="my-4 space-y-4 text-xs md:text-sm lg:text-base">
         <div className="flex flex-col md:flex-row gap-4 md:gap-2">
           <div className="md:flex-[0_1_50%]">
             <label htmlFor="name" className="block mb-2 font-medium text-text-100">Name</label>
