@@ -19,7 +19,7 @@ export const ProjectCardMobile = ({ title, alt, description, src, topic }: { tit
         className="h-[85%] w-full pb-1"
       />
 
-      <div className="border-t border-bg-200 h-full my-6 md:my-0  w-full px-3 text-pretty flex flex-col justify-center gap-2">
+      <div className="border-t border-bg-200 h-full my-6 md:my-0 w-full px-3 text-pretty flex flex-col justify-center gap-2">
         <h1 className="text-lg md:text-2xl font-bold text-balance text-center">{title}</h1>
         <p className="tracking-wider text-sm md:text-sm md:text-md text-balance text-center px-6 text-text-200 md:leading-6">{description}</p>
       </div>

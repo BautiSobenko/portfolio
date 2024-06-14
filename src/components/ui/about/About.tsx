@@ -29,10 +29,9 @@ export const About = () => {
         <div className="text-sm lg:text-base h-full p-4 pb-0 text-center leading-7 text-balance text-text-200">
           <div className="flex flex-col md:px-20 lg:px-28 xl:px-44 justify-center space-y-6 h-full">
             <p>
-              Throughout my career, I've had the opportunity to been involved in diverse projects across different industries. <br /> Web and App developement; Computer networks; Database analysis and design; Artificial Intelligence and Machine learning
-            </p>
+            I am currently working on my final degree project, analyzing, designing and developing a project tracking and management system for the Business Incubator of Mar del Plata.            </p>
             <p>
-              My hard skills spans a wide range of technologies, like Java, Python, JavaScript, React, Next.js, Node.js, Express.js. I am well-versed in both relational and non-relational databases, ensuring optimal data management solutions for every project.
+              Throughout my career, i've had the opportunity to been involved in projects across differents areas of computer science like: <br /> Web and App developement; Computer networks; Database analysis and design; Artificial Intelligence and Machine learning.
             </p>
           </div>
         </div>

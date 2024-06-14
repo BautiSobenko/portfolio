@@ -14,7 +14,6 @@ const GoToButton = ({name, sectionId}: {name:string, sectionId:string}) => {
       onClick={handleScroll}
     >
       <span className="text-md text-text-100"> {name} </span>
-
     </a>
 )}
 
