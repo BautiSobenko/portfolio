@@ -3,7 +3,7 @@ import { techStackData } from "@/lib/techStackData"
 
 export const FeatureSection = () => {
   return (
-    <section className="">
+    <section id="tech-stack-section" className="">
       <div className="text-center py-10">
         <h2 className="text-5xl font-bold mb-3">Tech stack</h2>
         <p className="text-sm md:text-base">

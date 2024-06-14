@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export const About = () => {
   return (
-    <section className="mb-10">
+    <section id="about-me-section" className="mb-10">
       
       <div className="text-center py-10">
         <h2 className="text-5xl font-bold mb-3">About</h2>

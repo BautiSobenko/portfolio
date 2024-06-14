@@ -1,4 +1,5 @@
 import Header from "./Header"
+import HeaderLink from "./HeaderLink"
 import Announcement from "./Announcement"
 import Hero from "./Hero"
 import DownloadButton from "./DownloadButton"
@@ -15,6 +16,7 @@ import { ContactSection } from "./contact/ContactSection"
 
 export {
   Header,
+  HeaderLink,
   Announcement,
   Hero,
   Divider,

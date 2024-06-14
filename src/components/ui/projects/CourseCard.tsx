@@ -5,7 +5,7 @@ import { ProjectCardDesktop } from ".."
 
 export const CourseCard = () => {
   return (
-    <section className="mb-10">
+    <section id="projects-section" className="mb-10">
       <div className="text-center py-10">
         <h2 className="text-5xl font-bold mb-3">Projects</h2>
         <p className="">
