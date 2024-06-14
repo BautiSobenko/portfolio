@@ -1,30 +1,32 @@
 'use client'
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Announcement = () => {
 
-  const [index, setIndex] = useState(0)
-  
-  const phrases = [
-    "Welcome to my portfolio! Thank you for visiting 👋",
-    "Passionate about engineering and learning new things📚"
+  const [currentAnnouncement, setCurrentAnnouncement] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forward();
+    }, 7000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const announcements = [
+    "Welcome to my portfolio! Thank you for visiting! 👋",
+    "Contact me for any inquiries 📧",
+    "Portfolio developed with Next.js and Tailwind CSS 👨🏻‍💻",
+    "Check out my resume 📚",
+    "New projects added to my portfolio. Take a look at my latest work! ☑️"
   ]
 
   const previous = () => {
-    if( index > 0 ) {
-      setIndex(index - 1)
-    } else {
-      setIndex(phrases.length - 1)
-    }
+    setCurrentAnnouncement( prev => prev === 0 ? announcements.length - 1 : prev - 1 );
   }
-
   const forward = () => {
-    if( index < phrases.length - 1 ) {
-      setIndex(index + 1)
-    } else {
-      setIndex(0)
-    }
+    setCurrentAnnouncement( prev => (prev + 1) % announcements.length);
   }
 
   return (
@@ -48,7 +50,7 @@ const Announcement = () => {
       </svg>
     </button>
       <p className="text-sm select-none">
-        {phrases[index]}
+        {announcements[currentAnnouncement]}
       </p>
     <button
       onClick={forward}
