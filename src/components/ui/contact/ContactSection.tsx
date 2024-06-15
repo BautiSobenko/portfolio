@@ -29,7 +29,7 @@ export const ContactSection = () => {
           <label htmlFor="message" className="block mb-2 font-medium text-text-100">Message</label>
           <textarea id="message" name="message" required rows={4} className="p-2.5 min-h-32 w-full text-text-300 focus:border-primary-100 focus:ring-primary-100 bg-bg-100 rounded-lg border outline-none border-bg-200 placeholder-text-300/50" placeholder="Your message"></textarea>
         </div>
-        <input type="submit" value="Send Message" className="py-3 text-center inline-block bg-accent-100 w-full rounded-lg font-medium hover:bg-bg-100 border-2 border-accent-100 hover:border-accent-100 " />
+        <input type="submit" value="Send Message" className="cursor-pointer py-3 text-center inline-block bg-accent-100 w-full rounded-lg font-medium hover:bg-bg-100 border-2 border-accent-100 hover:border-accent-100 " />
       </form>
 
     </section>

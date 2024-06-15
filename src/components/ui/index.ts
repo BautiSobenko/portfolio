@@ -3,6 +3,7 @@ import HeaderLink from "./HeaderLink"
 import Announcement from "./Announcement"
 import Hero from "./Hero"
 import DownloadButton from "./DownloadButton"
+import GoToButton from "./GoToButton"
 import Divider from "./Divider"
 import { CourseCard } from "./projects/CourseCard"
 import { ProjectCardMobile } from "./projects/ProjectCardMobile"
@@ -12,6 +13,7 @@ import { About } from "./about/About"
 import { CardIcon } from "./feature/FeatureCard"
 import { FeatureSection } from "./feature/FeatureSection"
 import { ContactSection } from "./contact/ContactSection"
+import SocialIcons from "./SocialIcons"
 
 
 export {
@@ -28,5 +30,7 @@ export {
   CardIcon,
   FeatureSection,
   ContactSection,
-  DownloadButton
+  DownloadButton,
+  SocialIcons,
+  GoToButton
 }
