@@ -4,7 +4,7 @@ import { HeaderLink } from "@components/ui";
 
 const Header = () => {
   return (
-    <header >
+    <header>
       <nav className="flex flex-col lg:gap-2 lg:flex-row justify-between items-center md:py-4 px-2">
         <div className="flex py-3 items-center gap-1 ">
           <a href="/" className="text-2xl tracking-wider">

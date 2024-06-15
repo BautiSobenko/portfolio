@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from "react"
-import { Hero, Divider, CourseCard, ProjectSectionMobile, About, FeatureSection, ContactSection } from "@/components/ui"
+import { Hero, Divider, CourseCard, ProjectSectionMobile, About, FeatureSection, ContactSection, ScrollToTopButton } from "@/components/ui"
 import { useMediaQuery } from "react-responsive"
 
 const Page = () => {
@@ -35,6 +35,7 @@ const Page = () => {
       <FeatureSection />
       <Divider />
       <ContactSection />
+      <ScrollToTopButton />
     </main>
   )
 }

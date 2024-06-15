@@ -30,7 +30,7 @@ const Announcement = () => {
   }
 
   return (
-    <div className={`rounded-b-xl w-full flex flex-row justify-between items-center gap-4 bg-accent-100 px-4 py-3 text-text-100 text-center`} >
+    <div className="rounded-b-xl w-full flex flex-row justify-between items-center gap-4 bg-accent-100 px-4 py-3 text-text-100 text-center" >
       <button
         onClick={previous}
         className="hover:text-bg-black rounded"

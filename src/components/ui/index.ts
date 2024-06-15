@@ -14,6 +14,7 @@ import { CardIcon } from "./feature/FeatureCard"
 import { FeatureSection } from "./feature/FeatureSection"
 import { ContactSection } from "./contact/ContactSection"
 import SocialIcons from "./SocialIcons"
+import ScrollToTopButton from "./ScrollToTopButton"
 
 
 export {
@@ -32,5 +33,6 @@ export {
   ContactSection,
   DownloadButton,
   SocialIcons,
-  GoToButton
+  GoToButton,
+  ScrollToTopButton
 }

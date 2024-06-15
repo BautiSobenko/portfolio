@@ -4,7 +4,7 @@ import Image from "next/image"
 export const ProjectCardMobile = ({ title, alt, description, src, topic }: { title: string, alt: string, description: string, src: string, topic: string }) => {
   
   return (
-    <a className="border border-bg-100 bg-bg-100 rounded-lg grid grid-rows-[15%_50%_35%] md:h-[35rem] overflow-hidden items-center"
+    <a className="border border-bg-100 bg-bg-100/80 rounded-lg grid grid-rows-[15%_50%_35%] md:h-[35rem] overflow-hidden items-center"
     href="#">
       <div className="flex justify-center items-center mx-2 my-4 md:my-2">
         <h4 className="bg-accent-100 rounded-full py-2 px-2 text-center text-balance text-sm md:text-base tracking-wider">{topic}</h4>

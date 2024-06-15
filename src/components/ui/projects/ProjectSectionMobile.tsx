@@ -1,8 +1,5 @@
-import Image from "next/image"
-
 import { projectsData } from "@/lib/projectsData"
 import { ProjectCardMobile } from "./ProjectCardMobile"
-import { ProjectCardDesktop } from "./ProjectCardDesktop"
 
 export const ProjectSectionMobile = () => {
   return (
