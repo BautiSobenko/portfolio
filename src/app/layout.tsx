@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Header, Announcement, Divider } from "@/components/ui";
+import { Header, Announcement, Divider, ScrollToTopButton } from "@/components/ui";
 import { aeonik, sohne } from './utils/fonts'
 
 export const metadata: Metadata = {
@@ -26,6 +26,7 @@ export default function RootLayout({children} : {children: React.ReactNode }) {
         <div className="xl:px-10 px-2">
           {children}
         </div>
+        <ScrollToTopButton />
       </body>
     </html>
   );

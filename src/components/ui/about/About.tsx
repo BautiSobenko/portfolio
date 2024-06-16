@@ -26,7 +26,7 @@ export const About = () => {
 
         <hr className="mx-24 border-accent-100"/>
  
-        <div className="text-sm lg:text-base h-full p-4 pb-0 text-center leading-7 text-balance text-text-200">
+        <div className="text-sm md:text-base h-full p-4 pb-0 text-center leading-7 text-balance text-text-200">
           <div className="flex flex-col md:px-20 lg:px-28 xl:px-44 justify-center space-y-6 h-full">
             <p>
             I am currently working on my final degree project, analyzing, designing and developing a project tracking and management system for the Business Incubator of Mar del Plata.            </p>

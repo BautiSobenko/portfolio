@@ -6,7 +6,7 @@ export const ContactSection = () => {
   const { handleSubmit } = useFormSubmit();
 
   return (
-    <section id="contact-section" className="mb-24 lg:px-24 xl:px-52 mx-10">
+    <section id="contact-section" className="mb-36 lg:px-24 xl:px-52 mx-10">
       <div className="justify-center text-center py-10">
         <h2 className="text-5xl font-bold mb-3">Contact me</h2>
         <p className="text-sm md:text-base">
@@ -14,7 +14,7 @@ export const ContactSection = () => {
         </p>
       </div>
 
-      <form method="POST" onSubmit={handleSubmit} className="my-4 space-y-4 text-xs md:text-sm lg:text-base">
+      <form method="POST" onSubmit={handleSubmit} className="font-secondary-sohne my-4 space-y-4 text-sm md:text-base">
         <div className="flex flex-col md:flex-row gap-4 md:gap-2">
           <div className="md:flex-[0_1_50%]">
             <label htmlFor="name" className="block mb-2 font-medium text-text-100">Name</label>
@@ -29,7 +29,7 @@ export const ContactSection = () => {
           <label htmlFor="message" className="block mb-2 font-medium text-text-100">Message</label>
           <textarea id="message" name="message" required rows={4} className="p-2.5 min-h-32 w-full text-text-300 focus:border-primary-100 focus:ring-primary-100 bg-bg-100 rounded-lg border outline-none border-bg-200 placeholder-text-300/50" placeholder="Your message"></textarea>
         </div>
-        <input type="submit" value="Send Message" className="cursor-pointer py-3 text-center inline-block bg-accent-100 w-full rounded-lg font-medium hover:bg-bg-100 border-2 border-accent-100 hover:border-accent-100 " />
+        <input type="submit" value="Send Message" className="cursor-pointer w-full gap-2 rounded border py-3 border-accent-100 bg-accent-100 text-white hover:bg-bg-100" />
       </form>
 
     </section>

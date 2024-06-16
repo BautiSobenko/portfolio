@@ -30,7 +30,7 @@ const Announcement = () => {
   }
 
   return (
-    <div className="rounded-b-xl w-full flex flex-row justify-between items-center gap-4 bg-accent-100 px-4 py-3 text-text-100 text-center" >
+    <div className="rounded-b-xl w-full flex justify-between items-center gap-4 bg-accent-100 px-4 py-3 text-text-100 text-center" >
       <button
         onClick={previous}
         className="hover:text-bg-black rounded"
@@ -38,7 +38,7 @@ const Announcement = () => {
       >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="md:h-5 md:w-5 h-7 w-8 rtl:rotate-180"
+        className="size-5 lg:size-7 rtl:rotate-180"
         viewBox="0 0 20 20"
         fill="currentColor"
       >
@@ -49,7 +49,7 @@ const Announcement = () => {
         />
       </svg>
     </button>
-      <p className="text-sm select-none">
+      <p className="text-xs md:text-sm text-balance select-none">
         {announcements[currentAnnouncement]}
       </p>
     <button
@@ -59,7 +59,7 @@ const Announcement = () => {
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="md:h-5 md:w-5 h-7 w-8 rtl:rotate-180"
+        className="size-5 lg:size-7  rtl:rotate-180"
         viewBox="0 0 20 20"
         fill="currentColor"
       >

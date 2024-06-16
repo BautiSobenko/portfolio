@@ -15,7 +15,7 @@ export const CardIcon = ( { name, src, alt } : { name: string, src: string, alt:
 
       <hr className="my-4 px-8 border-bg-300"/>
 
-      <h2 className="font-light tracking-wider text-text-200 text-sm lg:text-base">{name}</h2>  
+      <h2 className="font-normal tracking-wider text-text-200 text-sm lg:text-base">{name}</h2>  
 
     </li>
   )
