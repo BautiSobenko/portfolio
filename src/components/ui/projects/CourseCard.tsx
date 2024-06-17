@@ -15,15 +15,17 @@ export const CourseCard = () => {
           </span>
         </p>
       </div>
-      <div className="grid *:h-[42rem] xl:*:h-[38rem] grid-cols-5 grid-rows-8 gap-6 justify-center ">
+      <div className="grid *:h-[42rem] grid-cols-5 grid-rows-8 gap-6 justify-center ">
       
         <ProjectCardDesktop
           styles="row-start-1 row-span-4 col-start-1 col-span-3 "
           title={projectsData[0].name}
           alt={projectsData[0].alt}
           description={projectsData[0].description}
-          src={projectsData[0].href}
+          src={projectsData[0].src}
           topic={projectsData[0].topic}
+          tags={projectsData[0].tags}
+          href={projectsData[0].href} 
         />
         
         <ProjectCardDesktop
@@ -31,8 +33,10 @@ export const CourseCard = () => {
           title={projectsData[1].name}
           alt={projectsData[1].alt}
           description={projectsData[1].description}
-          src={projectsData[1].href}
+          src={projectsData[1].src}
           topic={projectsData[1].topic}
+          tags={projectsData[1].tags}
+          href={projectsData[1].href}
         />
 
         <ProjectCardDesktop
@@ -40,8 +44,10 @@ export const CourseCard = () => {
           title={projectsData[3].name}
           alt={projectsData[3].alt}
           description={projectsData[3].description}
-          src={projectsData[3].href}
+          src={projectsData[3].src}
           topic={projectsData[3].topic}
+          tags={projectsData[3].tags}
+          href={projectsData[3].href}
         />
         
         <ProjectCardDesktop
@@ -49,8 +55,10 @@ export const CourseCard = () => {
           title={projectsData[2].name}
           alt={projectsData[2].alt}
           description={projectsData[2].description}
-          src={projectsData[2].href}
+          src={projectsData[2].src}
           topic={projectsData[2].topic}
+          tags={projectsData[2].tags}
+          href={projectsData[2].href}
         />
     </div>
   </section>

@@ -13,7 +13,7 @@ const Hero = () => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' })
 
   return (
-    <section className="flex lg:flex-row flex-col my-6 text-pretty gap-6 xl:justify-around xl:items-center xl:my-16">
+    <section className="flex lg:flex-row flex-col my-6 text-pretty gap-6 lg:gap-3 xl:justify-around xl:items-center xl:my-16">
       <div className="space-y-4 items-center lg:text-start lg:items-start text-center">
         <h3 className="text-sm text-accent-100 uppercase font-secondary-sohne tracking-[2px]">Last-year Software Engineering Student</h3>
         <h1 className="flex flex-col text-5xl md:text-6xl">Hello. {<span className="">I'm Bauti.</span>}</h1>
@@ -44,7 +44,7 @@ const Hero = () => {
       </div>
       {
         isDesktopOrLaptop && (
-          <Image className="max-h-fit lg:size-[420px] xl:w-[525px]" 
+          <Image className="max-h-fit mr-5 lg:size-[420px] xl:w-[575px]" 
           priority
           src="/hero.svg"
           alt="Illustration of a software engineer coding with his laptop"

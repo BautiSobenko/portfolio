@@ -17,8 +17,9 @@ export const ProjectSectionMobile = () => {
               title={project.name} 
               alt={project.alt} 
               description={project.description} 
-              src={project.href}
+              src={project.src}
               topic={project.topic}
+              href={project.href}
             />
           ))}
     </div>
