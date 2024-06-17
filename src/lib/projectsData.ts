@@ -13,7 +13,7 @@ export const projectsData = [
       'PyTorch',
       'Keras',
       'Scikit-learn',
-      'YoloV7 model'
+      'Dataset Augmentation',
     ]
   },
   {
@@ -55,7 +55,7 @@ export const projectsData = [
     alt: 'Photo of a chat application showing a conversation between two users',
     description: 'Final team project for the subject "Systems Analysis and Design II" addressing issues related to Software Architecture in pursuit of required Quality Attributes (QA).',
     src: '/chat-app.svg',
-    topic: 'System Analysis and Design',
+    topic: 'System Analysis, Design and Development',
     href: 'https://github.com/BautiSobenko/chat-cliente-servidor',
     tags: [
       'Server-client version',

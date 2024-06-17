@@ -19,15 +19,15 @@ export const ProjectCardDesktop = ({ styles, title, alt, description, src, topic
         alt={alt}
         width={400}
         height={400}
-        className=" h-[55%] xl:h-[80%] self-center w-full"
+        className=" h-[70%] xl:h-[80%] self-center w-full"
       />
 
       <div className="border-t border-bg-200 gap-3 text-balance text-center flex flex-col justify-center">
         <h1 className="text-xl xl:text-2xl font-bold">{title}</h1>
-        <p className="px-20 text-text-200">{description}</p>
+        <p className="xl:px-20 text-text-200">{description}</p>
       </div>
 
-      <ul className="flex flex-wrap justify-center items-center text-sm px-20 py-4 gap-3 border-t border-bg-200">
+      <ul className="flex flex-wrap justify-center items-center text-sm xl:px-20 py-4 gap-3 border-t border-bg-200">
         {
           tags.map((tag, index) => (
             <Tags key={index} name={tag} />
