@@ -46,7 +46,7 @@ const Hero = () => {
         isDesktopOrLaptop && (
           <Image className="max-h-fit mr-5 lg:size-[420px] xl:w-[575px]" 
           priority
-          src="/hero.svg"
+          src="/portfolio/hero.svg"
           alt="Illustration of a software engineer coding with his laptop"
           width={525}
           height={525}
