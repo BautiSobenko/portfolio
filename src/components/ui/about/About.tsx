@@ -15,7 +15,7 @@ export const About = () => {
       <div className="flex flex-col h-[38rem] xl:h-[36rem] lg:mx-24 xl:mx-52 rounded-2xl bg-bg-100/80 py-8 border border-bg-200">
         <Image
           priority
-          src="/profile-pic.jpeg"
+          src="/portfolio/profile-pic.jpeg"
           alt="Illustration of a software engineer coding with his laptop"
           width={500}
           height={500}

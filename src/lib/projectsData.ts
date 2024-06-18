@@ -20,7 +20,7 @@ export const projectsData = [
     name: 'Management System based on REST Microservices',
     alt: 'Photo of a person with a sticker showing the GET request that will make to a REST API endpoint',
     description: 'Final team project for the subject "Distributed Systems" where a Web Application with REST Microservices Architecture is developed.',
-    src: '/distributed-systems.svg',
+    src: '/portfolio/distributed-systems.svg',
     topic: 'Distributed Systems + RFID',
     href: 'https://github.com/BautiSobenko/sistemas-distribuidos-2023',
     tags: [
@@ -34,7 +34,7 @@ export const projectsData = [
   },
   {
     name: 'Database Design and implementation for security control in a laboratory.',
-    alt: '',
+    alt: 'Database related image',
     description: 'Final team project for the subject "Databases" where a solution to a real-world problem is implemented using PostgreSQL as the engine.',
     src: '/portfolio/database.svg',
     topic: 'Database Design and Management',
@@ -54,7 +54,7 @@ export const projectsData = [
     name: 'Instant messaging system',
     alt: 'Photo of a chat application showing a conversation between two users',
     description: 'Final team project for the subject "Systems Analysis and Design II" addressing issues related to Software Architecture in pursuit of required Quality Attributes (QA).',
-    src: '/chat-app.svg',
+    src: '/portfolio/chat-app.svg',
     topic: 'System Analysis, Design and Development',
     href: 'https://github.com/BautiSobenko/chat-cliente-servidor',
     tags: [
