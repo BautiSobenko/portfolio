@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   applicationName: "Bautista Priano Sobenko Portfolio",
   authors: [{name: "Bautista Priano Sobenko"}],
   keywords: ["Bautista", "Priano", "Sobenko", "Portfolio", "Software Engineer", "Student", "National University of Mar del Plata"],
-  icons: "/web-icon.svg",
+  icons: "/portfolio/web-icon.svg",
 };  
 
 export default function RootLayout({children} : {children: React.ReactNode }) {
