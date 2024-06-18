@@ -12,10 +12,10 @@ export const About = () => {
           </p>
       </div>
 
-      <div className="flex flex-col h-[38rem] xl:h-[36rem] lg:mx-24 xl:mx-52 rounded-2xl bg-bg-100/80 py-8 border border-bg-200">
+      <div className="flex flex-col h-[38rem] xl:h-[36rem] lg:mx-24 xl:mx-52 2xl:mx-72 rounded-2xl bg-bg-100/80 py-8 border border-bg-200">
         <Image
           priority
-          src="/portfolio/profile-pic.jpeg"
+          src="/profile-pic.jpeg"
           alt="Illustration of a software engineer coding with his laptop"
           width={500}
           height={500}

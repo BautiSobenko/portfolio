@@ -15,7 +15,7 @@ export const ContactSection = () => {
       </div>
 
       <form method="POST" onSubmit={handleSubmit} className="font-secondary-sohne my-4 space-y-4 text-sm md:text-base">
-        <div className="flex flex-col md:flex-row gap-4 md:gap-2">
+        <div className="flex flex-col md:flex-row gap-4">
           <div className="md:flex-[0_1_50%]">
             <label htmlFor="name" className="block mb-2 font-medium text-text-100">Name</label>
             <input type="text" name="name" required className="block p-2.5 w-full text-text-300 focus:border-primary-100 focus:ring-primary-100 bg-bg-100 rounded-lg border outline-none border-bg-200 placeholder-text-300/50" placeholder="Your name"/>

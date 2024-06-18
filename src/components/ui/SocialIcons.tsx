@@ -36,7 +36,7 @@ const SocialIcons = () => {
         <p className='text-sm'>GitHub</p>
       </a>
       <a
-        href="/portfolio/bautista-sobenko-resume.pdf"
+        href="/bautista-sobenko-resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="flex gap-2 justify-center items-center text-text-300/60 hover:text-text-100 transition duration-300"

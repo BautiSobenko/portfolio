@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   applicationName: "Bautista Priano Sobenko Portfolio",
   authors: [{name: "Bautista Priano Sobenko"}],
   keywords: ["Bautista", "Priano", "Sobenko", "Portfolio", "Software Engineer", "Student", "National University of Mar del Plata"],
-  icons: "/portfolio/web-icon.svg",
+  icons: "/web-icon.svg",
 };  
 
 export default function RootLayout({children} : {children: React.ReactNode }) {
@@ -23,7 +23,7 @@ export default function RootLayout({children} : {children: React.ReactNode }) {
         <Announcement />
         <Header />
         <Divider />
-        <div className="xl:px-10 px-2">
+        <div className="xl:px-10 2xl:px-20 px-2">
           {children}
         </div>
         <ScrollToTopButton />
