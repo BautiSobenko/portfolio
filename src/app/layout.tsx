@@ -23,7 +23,7 @@ export default function RootLayout({children} : {children: React.ReactNode }) {
         <Announcement />
         <Header />
         <Divider />
-        <div className="xl:px-10 px-2">
+        <div className="xl:px-10 2xl:px-20 px-2">
           {children}
         </div>
         <ScrollToTopButton />

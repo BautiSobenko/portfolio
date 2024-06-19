@@ -31,7 +31,7 @@ const Hero = () => {
             <Image 
             priority
             className="pb-4 w-full px-2 md:px-10" 
-            src="/hero.svg"
+            src="7portfolio/hero.svg"
             alt="Illustration of a software engineer coding with his laptop"
             width={500}
             height={500}

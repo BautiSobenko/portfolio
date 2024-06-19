@@ -5,7 +5,7 @@ import { Tags } from "./Tags"
 export const ProjectCardDesktop = ({ styles, title, alt, description, src, topic, tags, href } : { styles: string, title: string, alt: string, description: string, src: string, topic: string, tags: Array<string>, href: string }) => {
   return (
     <a 
-      className={`overflow-hidden border border-bg-200 bg-bg-100/80 rounded-2xl grid grid-rows-[10%_45%_30%_15%] ${ styles }`}
+      className={`overflow-hidden border border-bg-200 bg-bg-100/80 rounded-2xl grid grid-rows-[10%_45%_30%_15%] 2xl:grid-rows-[10%_50%_25%_15%] ${ styles }`}
       href={href}
       target="_blank"
       rel="noopener noreferrer">
@@ -23,7 +23,7 @@ export const ProjectCardDesktop = ({ styles, title, alt, description, src, topic
       />
 
       <div className="border-t border-bg-200 gap-3 text-balance text-center flex flex-col justify-center">
-        <h1 className="text-xl xl:text-2xl font-bold">{title}</h1>
+        <h1 className="text-xl xl:text-2xl 2xl:px-20 font-bold">{title}</h1>
         <p className="xl:px-20 text-text-200">{description}</p>
       </div>
 
