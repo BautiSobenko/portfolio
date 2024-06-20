@@ -3,6 +3,7 @@ export function useFormSubmit() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    event.target.reset();
     const formData = new FormData(event.target);
 
     formData.append("access_key", "927cc82f-7162-4823-a968-e1a3eb00142d");

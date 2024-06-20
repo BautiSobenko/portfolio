@@ -1,12 +1,32 @@
+'use client'
+
+import { useState } from "react";
 
 import { useFormSubmit } from "@hooks/useFormSubmit";
 
+import SucessAlert from "./SucessAlert";
+
 export const ContactSection = () => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const { handleSubmit } = useFormSubmit();
 
+  const formSubmit = (e: any) => {
+    handleSubmit(e);
+    setIsModalOpen(true);
+    setTimeout(() => {
+      setIsModalOpen(false);
+    }, 4000);    
+  }
+
   return (
     <section id="contact-section" className="mb-36 lg:px-24 xl:px-52 mx-10">
+
+      {
+        isModalOpen && <SucessAlert />
+      }
+      
       <div className="justify-center text-center py-10">
         <h2 className="text-5xl font-bold mb-3">Contact me</h2>
         <p className="text-sm md:text-base">
@@ -14,7 +34,7 @@ export const ContactSection = () => {
         </p>
       </div>
 
-      <form method="POST" onSubmit={handleSubmit} className="font-secondary-sohne my-4 space-y-4 text-sm md:text-base">
+      <form method="POST" onSubmit={formSubmit} className="font-secondary-sohne my-4 space-y-4 text-sm md:text-base">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="md:flex-[0_1_50%]">
             <label htmlFor="name" className="block mb-2 font-medium text-text-100">Name</label>
