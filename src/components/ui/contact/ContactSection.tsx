@@ -22,7 +22,6 @@ export const ContactSection = () => {
 
   return (
     <section id="contact-section" className="mb-36 lg:px-24 xl:px-52 mx-10">
-
       {
         isModalOpen && <SucessAlert />
       }
