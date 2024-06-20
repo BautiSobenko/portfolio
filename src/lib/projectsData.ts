@@ -7,13 +7,11 @@ export const projectsData = [
     topic: 'Artificial Intelligence + Computer Vision',
     href: 'https://github.com/BautiSobenko/IA-2022',
     tags: [
-      'Convolutional Neural Networks (CNN)',
-      'Deep Neural Networks (DNN)',
+      'Convolutional Neural Networks',
+      'Deep Neural Networks',
       'Python',
-      'PyTorch',
-      'Keras',
-      'Scikit-learn',
-      'Dataset Augmentation',
+      'Dataset augmentation',
+      'Optimization techniques'
     ]
   },
   {
@@ -21,7 +19,7 @@ export const projectsData = [
     alt: 'Photo of a person with a sticker showing the GET request that will make to a REST API endpoint',
     description: 'Final team project for the subject "Distributed Systems" where a Web Application with REST Microservices Architecture is developed.',
     src: '/distributed-systems.svg',
-    topic: 'Distributed Systems + RFID',
+    topic: 'Distributed System + RFID',
     href: 'https://github.com/BautiSobenko/sistemas-distribuidos-2023',
     tags: [
       'REST APIs',
@@ -55,7 +53,7 @@ export const projectsData = [
     alt: 'Photo of a chat application showing a conversation between two users',
     description: 'Final team project for the subject "Systems Analysis and Design II" addressing issues related to Software Architecture in pursuit of required Quality Attributes (QA).',
     src: '/chat-app.svg',
-    topic: 'System Analysis, Design and Development',
+    topic: 'Development lifecycle',
     href: 'https://github.com/BautiSobenko/chat-cliente-servidor',
     tags: [
       'Server-client version',
