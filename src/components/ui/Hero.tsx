@@ -13,12 +13,12 @@ const Hero = () => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' })
 
   return (
-    <section className="flex lg:flex-row flex-col my-6 text-pretty gap-6 lg:gap-3 xl:justify-around xl:items-center xl:my-16">
-      <div className="space-y-4 items-center lg:text-start lg:items-start text-center">
+    <section className="flex lg:flex-row flex-col my-6 text-pretty lg:gap-3 xl:justify-around xl:items-center xl:my-16">
+      <div className="space-y-5 items-center lg:text-start lg:items-start text-center">
         <h3 className="text-sm text-accent-100 uppercase font-secondary-sohne tracking-[2px]">Last-year Software Engineering Student</h3>
         <h1 className="flex flex-col text-5xl md:text-6xl">Hello. {<span className="">I'm Bauti.</span>}</h1>
         <div className=" text-lg lg:text-lg text-text-200">
-          <div className="flex justify-center my-3 lg:justify-start">
+          <div className="flex justify-center my-5 lg:justify-start">
             <SocialIcons />
           </div>
           <p className="py-2 text-sm md:text-base lg:text-start text-balance text-center">
@@ -30,7 +30,7 @@ const Hero = () => {
           isTabletOrMobile && (
             <Image 
             priority
-            className="pb-4 w-full px-2 md:px-10" 
+            className="pb-4 size-full px-2 md:px-10" 
             src="/hero.svg"
             alt="Illustration of a software engineer coding with his laptop"
             width={500}
@@ -38,7 +38,7 @@ const Hero = () => {
             />
           )
         }
-        <div className="text-sm md:text-base flex flex-col my-6 md:mt-8 lg:mt-0 lg:mr-36">
+        <div className="text-sm md:text-base flex flex-col my-5 md:mx-16 lg:mx-0 md:mt-8 lg:mt-0 lg:mr-36">
           <GoToButton name="Contact me" sectionId="contact-section"/>  
         </div>
       </div>
