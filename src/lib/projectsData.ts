@@ -7,13 +7,11 @@ export const projectsData = [
     topic: 'Artificial Intelligence + Computer Vision',
     href: 'https://github.com/BautiSobenko/IA-2022',
     tags: [
-      'Convolutional Neural Networks (CNN)',
-      'Deep Neural Networks (DNN)',
+      'Convolutional Neural Networks',
+      'Deep Neural Networks',
       'Python',
-      'PyTorch',
-      'Keras',
-      'Scikit-learn',
-      'Dataset Augmentation',
+      'Dataset augmentation',
+      'Optimization techniques'
     ]
   },
   {

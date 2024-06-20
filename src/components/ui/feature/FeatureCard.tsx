@@ -10,7 +10,7 @@ export const CardIcon = ( { name, src, alt } : { name: string, src: string, alt:
         alt={alt}
         width={200}
         height={200}
-        className=" h-[42%] self-center w-full"
+        className=" h-[36%] md:h-[42%] self-center w-full"
       />
 
       <hr className="my-4 px-8 border-bg-300"/>

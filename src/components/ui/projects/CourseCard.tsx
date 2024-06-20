@@ -18,7 +18,7 @@ export const CourseCard = () => {
       <div className="grid *:h-[42rem] grid-cols-5 grid-rows-8 gap-6 justify-center ">
       
         <ProjectCardDesktop
-          styles="row-start-1 row-span-4 col-start-1 col-span-3 "
+          styles="row-start-1 row-span-4 col-start-1 col-span-3"
           title={projectsData[0].name}
           alt={projectsData[0].alt}
           description={projectsData[0].description}
