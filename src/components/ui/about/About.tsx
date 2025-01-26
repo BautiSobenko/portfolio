@@ -12,7 +12,7 @@ export const About = () => {
           </p>
       </div>
 
-      <div className="flex flex-col h-[34rem] md:h-[38rem] xl:h-[36rem] lg:mx-24 xl:mx-52 2xl:mx-72 rounded-2xl bg-bg-100/80 py-8 border border-bg-200">
+      <div className="flex flex-col h-[34rem] md:h-[38rem] xl:h-[40rem] lg:mx-24 xl:mx-52 2xl:mx-72 rounded-2xl bg-bg-100/80 py-8 border border-bg-200">
         <Image
           priority
           src="/portfolio/profile-pic.jpeg"
@@ -27,7 +27,7 @@ export const About = () => {
         <hr className="mx-24 border-accent-100"/>
  
         <div className="text-sm md:text-base h-full p-4 pb-0 text-center leading-7 text-balance text-text-200">
-          <div className="flex flex-col md:px-20 lg:px-28 xl:px-44 justify-center space-y-6 h-full">
+          <div className="flex flex-col md:px-20 lg:px-28 xl:px-40 justify-center space-y-6 h-full">
             <p>
             I am currently working as Software Engineer in "Atlantis" Innovation Center, analyzing, designing and developing a management system.
             Web solution designed to centralize all relevant information, solve data dispersion issues and facilitate a detailed traceability of the life cycle of each incubated startup.             
