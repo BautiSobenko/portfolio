@@ -22,9 +22,9 @@ const Hero = () => {
             <SocialIcons />
           </div>
           <p className="py-2 text-sm md:text-base lg:text-start text-balance text-center">
-            Passionate Software Engineer student at "National University of Mar del Plata" with a solid foundation
-            in computer science principles and in the whole software life cycle.
+            Passionate Software Engineer specialized in the analysis, design and development of robust, efficient and scalable systems, with the ability to work and adapt quickly to new environments and technologies.
           </p>
+
         </div>
         {
           isTabletOrMobile && (

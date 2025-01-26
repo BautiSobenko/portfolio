@@ -29,9 +29,11 @@ export const About = () => {
         <div className="text-sm md:text-base h-full p-4 pb-0 text-center leading-7 text-balance text-text-200">
           <div className="flex flex-col md:px-20 lg:px-28 xl:px-44 justify-center space-y-6 h-full">
             <p>
-            I am currently working on my final degree project, analyzing, designing and developing a project tracking and management system for the Business Incubator of Mar del Plata.            </p>
+            I am currently working as Software Engineer in "Atlantis" Innovation Center, analyzing, designing and developing a management system.
+            Web solution designed to centralize all relevant information, solve data dispersion issues and facilitate a detailed traceability of the life cycle of each incubated startup.             
+            </p>
             <p>
-              Throughout my career, i've had the opportunity to been involved in projects across differents areas of computer science like: <br /> Web and App developement; Computer networks; Database analysis and design; Artificial Intelligence and Machine learning.
+            Throughout my career, i've had the opportunity to been involved in projects across differents areas of computer science like: <br /> Web and App developement; Computer networks; Database analysis and design; Artificial Intelligence and Machine learning.
             </p>
           </div>
         </div>
