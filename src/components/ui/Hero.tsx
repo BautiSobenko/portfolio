@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section className="flex lg:flex-row flex-col my-6 text-pretty lg:gap-3 xl:justify-around xl:items-center xl:my-16">
       <div className="space-y-5 items-center lg:text-start lg:items-start text-center">
-        <h3 className="text-sm text-accent-100 uppercase font-secondary-sohne tracking-[2px]">Last-year Software Engineering Student</h3>
+        <h3 className="text-sm text-accent-100 uppercase font-secondary-sohne tracking-[2px]">Software Engineer</h3>
         <h1 className="flex flex-col text-5xl md:text-6xl">Hello. {<span className="">I'm Bauti.</span>}</h1>
         <div className=" text-lg lg:text-lg text-text-200">
           <div className="flex justify-center my-5 lg:justify-start">
